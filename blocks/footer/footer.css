@@ -1,0 +1,26 @@
+@import url(./__link/footer__link.css);
+@import url(./__list-item/footer__list-item.css);
+@import url(./__list/footer__list.css);
+@import url(./__author/footer__author.css);
+
+
+.footer{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 92px 48px 24px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px){
+  .footer{
+    padding: 88px 24px 24px 24px;
+  }
+}
+
+@media (max-width: 700px){
+  .footer{
+  flex-direction: column;
+  padding: 64px 118px 24px 16px;
+  }
+}

@@ -1,0 +1,11 @@
+.footer__list-item + .footer__list-item{
+  margin-left: 18px;
+}
+
+
+@media (max-width: 700px){
+  .footer__list-item + .footer__list-item{
+  margin-left: 0px;
+  margin-top: 32px;
+  }
+}

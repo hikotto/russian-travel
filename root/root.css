@@ -1,0 +1,10 @@
+@import url(../vendor/fonts/fonts.css);
+
+.page{
+  background-color: #2a2c2f;
+  margin: 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+}

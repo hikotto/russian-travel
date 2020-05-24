@@ -1,0 +1,45 @@
+.intro__item:nth-child(1)::after{
+  content: ' 11';
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__item:nth-child(2)::after{
+  content: ' 12';
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__item:nth-child(3)::after{
+  content: ' 16';
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__item:nth-child(4)::after{
+  content: ' 105';
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__item:nth-child(5)::after{
+  content: ' 241';
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+

@@ -1,0 +1,10 @@
+.places__links{
+  grid-area: url;
+  align-self: end;
+}
+
+@media (max-width: 700px){
+  .places__links{
+    display: none;
+  }
+}

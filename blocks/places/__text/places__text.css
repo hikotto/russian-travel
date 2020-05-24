@@ -1,0 +1,25 @@
+.places__text{
+  grid-area: text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.places__text:first-of-type{
+  margin-top: 0;
+}
+
+@media (max-width: 768px){
+  .places__text{
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+@media (max-width: 700px){
+  .places__text{
+    padding: 0 16px;
+  }
+}
+
