@@ -12,5 +12,17 @@
 }
 
 .header__language-selection:hover{
-  opacity: 0.8;
+  opacity: .8;
+  transition: .4s;
 }
+
+@media (max-width: 700px){
+  .header__language-selection{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+

@@ -2,13 +2,13 @@
 @import url(./__title/intro__title.css);
 @import url(./__list/intro__list.css);
 @import url(./__item/intro__item.css);
+@import url(./__facts/intro__facts.css);
 
 .intro{
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  min-height: 612px;
   padding: 98px 0px 98px 148px;
   box-sizing: border-box;
 }
@@ -23,14 +23,12 @@
 @media (max-width: 768px){
   .intro{
     padding: 88px 24px 88px 24px;
-    min-height: 604px;
   }
 }
 
 @media (max-width: 700px){
   .intro{
     padding: 56px 16px 54px 16px;
-    min-height: 604px;
   }
 }
 
